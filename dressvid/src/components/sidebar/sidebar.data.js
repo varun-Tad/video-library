@@ -1,7 +1,7 @@
 import { AiFillHome } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";
 import { AiOutlineClockCircle } from "react-icons/ai";
-import { GrHistory } from "react-icons/gr";
+import { FaHistory } from "react-icons/fa";
 import { MdPlaylistPlay } from "react-icons/md";
 
 export const SidebarData = [
@@ -32,7 +32,7 @@ export const SidebarData = [
   {
     title: "History",
     path: "/history",
-    icon: <GrHistory />,
+    icon: <FaHistory />,
     cName: "sideBar-text",
   },
 ];

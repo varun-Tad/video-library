@@ -1,23 +1,12 @@
-import Sidebar from "../components/sidebar/sidebar";
-import Navbar from "../components/navbar/navbar";
-import { useSidebar } from "../context/sidebarContext";
-
 import "./Homepage.css";
 
 const Homepage = () => {
-  const { sidebarState } = useSidebar();
   return (
     <div className="home">
-      <Navbar className="nav" />
-      <div className="fl">
-        {sidebarState && <Sidebar className="side" />}
-        <div className="fl-1">
-          <h1>Hello</h1>
-          <h1>Hello</h1>
-          <h1>Hello</h1>
-          <h1>Hello</h1>
-        </div>
-      </div>
+      <img
+        src="https://assets.vogue.com/photos/627eb7867f35b37d9fece617/4:3/w_1600%2Cc_limit/australian-fashion-week-2022-street-style-su-shan-leong-day5-006.jpg"
+        alt="images"
+      />
     </div>
   );
 };

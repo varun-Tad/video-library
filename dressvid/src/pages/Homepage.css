@@ -1,18 +1,4 @@
-.fl {
-  display: flex;
-  column-gap: 1px;
-}
-
-.fl-1 {
-  display: grid;
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 100px 100px;
-  margin-left: 200px;
-  row-gap: 200px;
-  column-gap: 200px;
-  background-color: red;
-}
-
-.fl-1 h1 {
-  border: 1px solid black;
+img {
+  height: 600px;
+  width: 1500px;
 }
