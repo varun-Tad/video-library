@@ -3,12 +3,19 @@ import { AiFillHeart } from "react-icons/ai";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { FaHistory } from "react-icons/fa";
 import { MdPlaylistPlay } from "react-icons/md";
+import { MdOutlineExplore } from "react-icons/md";
 
 export const SidebarData = [
   {
     title: "Home",
     path: "/",
     icon: <AiFillHome />,
+    cName: "sideBar-text",
+  },
+  {
+    title: "Explore",
+    path: "explore",
+    icon: <MdOutlineExplore />,
     cName: "sideBar-text",
   },
   {

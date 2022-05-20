@@ -1,0 +1,92 @@
+.home {
+  overflow-x: hidden;
+  margin-bottom: 5rem;
+}
+
+img {
+  height: 600px;
+  width: 1500px;
+}
+
+.tag-line {
+  position: relative;
+  bottom: 300px;
+  left: 450px;
+  font-size: 50px;
+  color: white;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 20rem; */
+  row-gap: 50px;
+
+  text-align: center;
+}
+
+.brands {
+  width: 25%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  margin: 0 7.5px 15px;
+  overflow: hidden;
+  background-position: center;
+}
+
+.fashionShows {
+  width: 25%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  margin: 0 7.5px 15px;
+  overflow: hidden;
+}
+
+.fashionCourse {
+  width: 25%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  margin: 0 7.5px 15px;
+  overflow: hidden;
+}
+
+.fashionVlogs {
+  width: 25%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  margin: 0 7.5px 15px;
+  overflow: hidden;
+}
+
+h2 {
+  background-color: rgba(247, 248, 250, 0.4);
+  text-align: center;
+  position: relative;
+  left: 750px;
+  padding: 1rem;
+}
+
+/* .background-image:hover {
+  transform: scale(0.8);
+  transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+} */
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
