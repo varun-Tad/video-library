@@ -1,0 +1,30 @@
+.sidebar-container {
+  width: 15rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-top: 2rem;
+  border-right: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* z-index: 10; */
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: black;
+}
+
+.sideBar-text {
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+}
+
+.sideBar-text:hover {
+  background-color: #f2eeed;
+}
+
+.sidebar-title {
+  margin-left: 1rem;
+}
