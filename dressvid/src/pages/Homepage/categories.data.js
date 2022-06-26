@@ -22,11 +22,11 @@ export const categoriesData = [
     cName: "fashionCourse",
     c1Name: "category",
   },
-  //   {
-  //     name: "Fashion Vlogs",
-  //     img: "https://www.thefashionisto.com/wp-content/uploads/2021/01/Male-Fashion-Vlogger-800x533.jpg",
-  //     path: "/explore",
-  //     cName: "fashionVlogs",
-  //     c1Name: "category",
-  //   },
+  {
+    name: "Fashion Vlogs",
+    img: "https://www.thefashionisto.com/wp-content/uploads/2021/01/Male-Fashion-Vlogger-800x533.jpg",
+    path: "/explore",
+    cName: "fashionVlogs",
+    c1Name: "category",
+  },
 ];
